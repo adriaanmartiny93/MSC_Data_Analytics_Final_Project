@@ -1,0 +1,163 @@
+position,samples,MSE,MAE,R²,top_features_raw,top_features_clean,importances,error
+Defensive Midfielder,88,6.835201392987138,1.9680129223399692,-0.6034734248968836,"['player_season_shot_on_target_ratio_improvement', 'player_season_obv_pass_90_improvement', 'player_season_np_psxg_90_improvement', 'player_season_assists_90_improvement', 'player_season_sp_xa_90_improvement', 'player_season_deep_completions_90_improvement', 'player_season_xgchain_improvement', 'player_season_through_balls_90_improvement', 'player_season_box_cross_ratio_improvement', 'player_season_xgbuildup_improvement', 'player_season_op_f3_backward_pass_proportion_improvement', 'player_season_sp_assists_90_improvement']","['Shot On Target Ratio (I)', 'Obv Pass (I)', 'Np Psxg (I)', 'Assists (I)', 'Sp Xa (I)', 'Deep Completions (I)', 'Xgchain (I)', 'Through Balls (I)', 'Box Cross Ratio (I)', 'Xgbuildup (I)', 'Op F3 Backward Pass Proportion (I)', 'Sp Assists (I)']","    rank                                        feature_raw  \
+0      1     player_season_shot_on_target_ratio_improvement   
+1      2              player_season_obv_pass_90_improvement   
+2      3               player_season_np_psxg_90_improvement   
+3      4               player_season_assists_90_improvement   
+4      5                 player_season_sp_xa_90_improvement   
+5      6      player_season_deep_completions_90_improvement   
+6      7                  player_season_xgchain_improvement   
+7      8         player_season_through_balls_90_improvement   
+8      9          player_season_box_cross_ratio_improvement   
+9     10                player_season_xgbuildup_improvement   
+10    11  player_season_op_f3_backward_pass_proportion_i...   
+11    12            player_season_sp_assists_90_improvement   
+
+                         feature_clean  importance  
+0             Shot On Target Ratio (I)    0.279054  
+1                         Obv Pass (I)    0.137978  
+2                          Np Psxg (I)    0.116951  
+3                          Assists (I)    0.088463  
+4                            Sp Xa (I)    0.077778  
+5                 Deep Completions (I)    0.058772  
+6                          Xgchain (I)    0.051297  
+7                    Through Balls (I)    0.030277  
+8                  Box Cross Ratio (I)    0.029133  
+9                        Xgbuildup (I)    0.014990  
+10  Op F3 Backward Pass Proportion (I)    0.014756  
+11                      Sp Assists (I)    0.014240  ",
+Back,60,1.78363284572256,0.9088790724674861,-0.21824754439144622,"['player_season_shot_touch_ratio_improvement', 'player_season_deep_completions_90_improvement', 'player_season_box_cross_ratio_improvement', 'player_season_xgbuildup_improvement', 'player_season_dispossessions_90_improvement', 'player_season_op_xa_90_improvement', 'Elo', 'player_season_np_xg_90_improvement', 'player_season_counterpressure_regains_90_improvement', 'player_season_np_psxg_90_improvement', 'player_season_pressured_change_in_pass_length_improvement', 'player_season_failed_dribbles_90_improvement']","['Shot Touch Ratio (I)', 'Deep Completions (I)', 'Box Cross Ratio (I)', 'Xgbuildup (I)', 'Dispossessions (I)', 'Op Xa (I)', 'Elo', 'Np Xg (I)', 'Counterpressure Regains (I)', 'Np Psxg (I)', 'Pressured Change In Pass Length (I)', 'Failed Dribbles (I)']","    rank                                        feature_raw  \
+0      1         player_season_shot_touch_ratio_improvement   
+1      2      player_season_deep_completions_90_improvement   
+2      3          player_season_box_cross_ratio_improvement   
+3      4                player_season_xgbuildup_improvement   
+4      5        player_season_dispossessions_90_improvement   
+5      6                 player_season_op_xa_90_improvement   
+6      7                                                Elo   
+7      8                 player_season_np_xg_90_improvement   
+8      9  player_season_counterpressure_regains_90_impro...   
+9     10               player_season_np_psxg_90_improvement   
+10    11  player_season_pressured_change_in_pass_length_...   
+11    12       player_season_failed_dribbles_90_improvement   
+
+                          feature_clean  importance  
+0                  Shot Touch Ratio (I)    0.362378  
+1                  Deep Completions (I)    0.152609  
+2                   Box Cross Ratio (I)    0.073040  
+3                         Xgbuildup (I)    0.056166  
+4                    Dispossessions (I)    0.048565  
+5                             Op Xa (I)    0.047513  
+6                                   Elo    0.037756  
+7                             Np Xg (I)    0.031898  
+8           Counterpressure Regains (I)    0.030787  
+9                           Np Psxg (I)    0.025404  
+10  Pressured Change In Pass Length (I)    0.021795  
+11                  Failed Dribbles (I)    0.020516  ",
+Midfielder,78,25.992752469322454,2.35311235524714,-0.022739023108196754,"['player_season_crosses_90_improvement', 'player_season_long_balls_90_improvement', 'player_season_failed_dribbles_90_improvement', 'player_season_op_f3_backward_pass_proportion_improvement', 'player_season_yellow_cards_90_improvement', 'player_season_obv_defensive_action_90_improvement', 'player_season_np_xg_90_improvement', 'player_season_deep_completions_90_improvement', 'player_season_passes_inside_box_90_improvement', 'player_season_sp_key_passes_90_improvement', 'player_season_clearance_90_improvement', 'Elo']","['Crosses (I)', 'Long Balls (I)', 'Failed Dribbles (I)', 'Op F3 Backward Pass Proportion (I)', 'Yellow Cards (I)', 'Obv Defensive Action (I)', 'Np Xg (I)', 'Deep Completions (I)', 'Passes Inside Box (I)', 'Sp Key Passes (I)', 'Clearance (I)', 'Elo']","    rank                                        feature_raw  \
+0      1               player_season_crosses_90_improvement   
+1      2            player_season_long_balls_90_improvement   
+2      3       player_season_failed_dribbles_90_improvement   
+3      4  player_season_op_f3_backward_pass_proportion_i...   
+4      5          player_season_yellow_cards_90_improvement   
+5      6  player_season_obv_defensive_action_90_improvement   
+6      7                 player_season_np_xg_90_improvement   
+7      8      player_season_deep_completions_90_improvement   
+8      9     player_season_passes_inside_box_90_improvement   
+9     10         player_season_sp_key_passes_90_improvement   
+10    11             player_season_clearance_90_improvement   
+11    12                                                Elo   
+
+                         feature_clean  importance  
+0                          Crosses (I)    0.223205  
+1                       Long Balls (I)    0.168589  
+2                  Failed Dribbles (I)    0.119753  
+3   Op F3 Backward Pass Proportion (I)    0.095520  
+4                     Yellow Cards (I)    0.091947  
+5             Obv Defensive Action (I)    0.050152  
+6                            Np Xg (I)    0.038819  
+7                 Deep Completions (I)    0.037054  
+8                Passes Inside Box (I)    0.024431  
+9                    Sp Key Passes (I)    0.022276  
+10                       Clearance (I)    0.017936  
+11                                 Elo    0.016464  ",
+Wing,65,3.930304188588122,1.4419770589241616,0.20318928998153474,"['player_season_goals_90_improvement', 'player_season_aerial_ratio_improvement', 'player_season_change_in_passing_ratio_improvement', 'player_season_obv_defensive_action_90_improvement', 'player_season_obv_shot_90_improvement', 'Elo', 'player_season_padj_clearances_90_improvement', 'player_season_box_cross_ratio_improvement', 'player_season_over_under_performance_90_improvement', 'player_season_aerial_wins_90_improvement', 'player_season_obv_pass_90_improvement', 'player_season_fouls_90_improvement']","['Goals (I)', 'Aerial Ratio (I)', 'Change In Passing Ratio (I)', 'Obv Defensive Action (I)', 'Obv Shot (I)', 'Elo', 'Padj Clearances (I)', 'Box Cross Ratio (I)', 'Over Under Performance (I)', 'Aerial Wins (I)', 'Obv Pass (I)', 'Fouls (I)']","    rank                                        feature_raw  \
+0      1                 player_season_goals_90_improvement   
+1      2             player_season_aerial_ratio_improvement   
+2      3  player_season_change_in_passing_ratio_improvement   
+3      4  player_season_obv_defensive_action_90_improvement   
+4      5              player_season_obv_shot_90_improvement   
+5      6                                                Elo   
+6      7       player_season_padj_clearances_90_improvement   
+7      8          player_season_box_cross_ratio_improvement   
+8      9  player_season_over_under_performance_90_improv...   
+9     10           player_season_aerial_wins_90_improvement   
+10    11              player_season_obv_pass_90_improvement   
+11    12                 player_season_fouls_90_improvement   
+
+                  feature_clean  importance  
+0                     Goals (I)    0.370626  
+1              Aerial Ratio (I)    0.153863  
+2   Change In Passing Ratio (I)    0.124830  
+3      Obv Defensive Action (I)    0.096683  
+4                  Obv Shot (I)    0.061525  
+5                           Elo    0.046271  
+6           Padj Clearances (I)    0.031024  
+7           Box Cross Ratio (I)    0.030783  
+8    Over Under Performance (I)    0.015242  
+9               Aerial Wins (I)    0.013252  
+10                 Obv Pass (I)    0.011240  
+11                    Fouls (I)    0.007513  ",
+Centre Back,120,2.883760737117882,1.0161367113391557,0.31010437046493955,"['player_season_obv_dribble_carry_90_improvement', 'player_season_deep_completions_90_improvement', 'player_season_sp_passes_into_box_90_improvement', 'player_season_obv_defensive_action_90_improvement', 'Elo', 'player_season_conversion_ratio_improvement', 'player_season_minutes', 'player_season_passes_inside_box_90_improvement', 'player_season_crosses_90_improvement', 'player_season_np_psxg_90_improvement', 'player_season_change_in_passing_ratio_improvement', 'player_season_yellow_cards_90_improvement']","['Obv Dribble Carry (I)', 'Deep Completions (I)', 'Sp Passes Into Box (I)', 'Obv Defensive Action (I)', 'Elo', 'Conversion Ratio (I)', 'Minutes', 'Passes Inside Box (I)', 'Crosses (I)', 'Np Psxg (I)', 'Change In Passing Ratio (I)', 'Yellow Cards (I)']","    rank                                        feature_raw  \
+0      1     player_season_obv_dribble_carry_90_improvement   
+1      2      player_season_deep_completions_90_improvement   
+2      3    player_season_sp_passes_into_box_90_improvement   
+3      4  player_season_obv_defensive_action_90_improvement   
+4      5                                                Elo   
+5      6         player_season_conversion_ratio_improvement   
+6      7                              player_season_minutes   
+7      8     player_season_passes_inside_box_90_improvement   
+8      9               player_season_crosses_90_improvement   
+9     10               player_season_np_psxg_90_improvement   
+10    11  player_season_change_in_passing_ratio_improvement   
+11    12          player_season_yellow_cards_90_improvement   
+
+                  feature_clean  importance  
+0         Obv Dribble Carry (I)    0.431075  
+1          Deep Completions (I)    0.198541  
+2        Sp Passes Into Box (I)    0.101636  
+3      Obv Defensive Action (I)    0.101598  
+4                           Elo    0.055999  
+5          Conversion Ratio (I)    0.037198  
+6                       Minutes    0.020816  
+7         Passes Inside Box (I)    0.014078  
+8                   Crosses (I)    0.013308  
+9                   Np Psxg (I)    0.012153  
+10  Change In Passing Ratio (I)    0.006761  
+11             Yellow Cards (I)    0.002494  ",
+Centre Forward,95,2.1708096656893177,1.0309458751427503,0.7262195591724202,"['player_season_box_cross_ratio_improvement', 'player_season_obv_90_improvement', 'player_season_counterpressure_regains_90_improvement', 'Elo', 'player_season_penalty_wins_90_improvement', 'player_season_through_balls_90_improvement', 'player_season_pressured_long_balls_90_improvement', 'player_season_obv_shot_90_improvement', 'player_season_minutes', 'player_season_obv_pass_90_improvement', 'player_season_starting_appearances_improvement', 'player_season_deep_completions_90_improvement']","['Box Cross Ratio (I)', 'Obv (I)', 'Counterpressure Regains (I)', 'Elo', 'Penalty Wins (I)', 'Through Balls (I)', 'Pressured Long Balls (I)', 'Obv Shot (I)', 'Minutes', 'Obv Pass (I)', 'Starting Appearances (I)', 'Deep Completions (I)']","    rank                                        feature_raw  \
+0      1          player_season_box_cross_ratio_improvement   
+1      2                   player_season_obv_90_improvement   
+2      3  player_season_counterpressure_regains_90_impro...   
+3      4                                                Elo   
+4      5          player_season_penalty_wins_90_improvement   
+5      6         player_season_through_balls_90_improvement   
+6      7  player_season_pressured_long_balls_90_improvement   
+7      8              player_season_obv_shot_90_improvement   
+8      9                              player_season_minutes   
+9     10              player_season_obv_pass_90_improvement   
+10    11     player_season_starting_appearances_improvement   
+11    12      player_season_deep_completions_90_improvement   
+
+                  feature_clean  importance  
+0           Box Cross Ratio (I)    0.298583  
+1                       Obv (I)    0.152988  
+2   Counterpressure Regains (I)    0.101700  
+3                           Elo    0.079651  
+4              Penalty Wins (I)    0.077567  
+5             Through Balls (I)    0.048907  
+6      Pressured Long Balls (I)    0.040809  
+7                  Obv Shot (I)    0.034852  
+8                       Minutes    0.030275  
+9                  Obv Pass (I)    0.021319  
+10     Starting Appearances (I)    0.015522  
+11         Deep Completions (I)    0.014903  ",
